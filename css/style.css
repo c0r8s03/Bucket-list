@@ -76,19 +76,29 @@ header {    display:block;
    header{
         font-size: 0.9em;
     }
+   .btn-group-lg { 
+   font-size: 30px;
+}
 }
  
 @media all and (max-width: 959px) and (min-width: 600px) {
    header{
         font-size: 0.563em;
     }
+    
+     .btn-group-lg { 
+   font-size: 20px;
+}
 }
  
 @media all and (max-width: 599px) and (min-width: 320px) {
     header{
         font-size: 0.28em;
+        
     }
- 
+   .btn-group-lg {
+        font-size: 15px;
+    }
 }
 
 
@@ -98,7 +108,6 @@ header {    display:block;
 .btn-group-lg {
   display: inline-block;
   padding: 10px 25px;
-  font-size: 30px;
   cursor: pointer;
   text-align: center;
   text-decoration: none;
@@ -220,7 +229,7 @@ header {    display:block;
 
 .row {
     display:flex;
-    
+    flex-wrap:wrap;
 }
 
 /*.column1{*/
@@ -265,4 +274,8 @@ header {    display:block;
 
 .empty{
     height:55px;
+}
+
+span {
+    height:150ps;
 }

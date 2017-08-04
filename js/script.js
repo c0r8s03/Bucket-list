@@ -7,7 +7,7 @@
     var myimg = "<img src='images/Omul.jpg'>";
     
       $('.icon').popover({content:myimg, html:'true', placement:'left'}); 
-      $('.icon1').popover({
+      $('#icon1').popover({
           content:myimg1,
           html:'true',
           placement:'left'}); 
